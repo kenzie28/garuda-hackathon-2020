@@ -1,0 +1,24 @@
+.option {
+    text-decoration: underline;
+}
+
+.subhead {
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.sentence {
+    padding-bottom: 20px;
+}
+
+.link {
+    text-decoration: underline;
+    color: blue;
+}
+
+.calendar {
+    font-size: 2px;
+    padding-top: 30px;
+    text-decoration: underline;
+    color: blue;
+}

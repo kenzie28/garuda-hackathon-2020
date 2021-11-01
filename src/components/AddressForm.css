@@ -1,0 +1,19 @@
+.sentence {
+    padding-right: 5px;
+}
+
+.pic {
+    margin-right: 20px;
+    margin-left: 10px;
+    border: 2px groove grey;
+    background-color: #FAFAFA;
+}
+
+.name {
+    border: 2px groove grey;
+    padding: 6px;
+    margin-left: 5px;
+    background-color: #FAFAFA;
+    font-family: sans-serif;
+    font-weight: bold;
+}

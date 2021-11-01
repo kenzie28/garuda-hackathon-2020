@@ -1,0 +1,73 @@
+.logoForm {
+  font-size: 60px;
+  padding-top: -10px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  border-bottom: 2px solid #0088D9;
+  background-color: #0088D9;
+  color: white;
+  padding-bottom: 17px;
+}
+
+.dailyEntry {
+  font-family: serif;
+  font-weight: 400;
+  font-size: 35px;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.subheader {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-top: 15px;
+}
+
+.date {
+  font-size: 25px;
+}
+
+#next-button, #prev-button {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+#next-button {
+  margin-right: 0px;
+}
+
+#prev-button {
+  margin-left: 40px;
+}
+
+@media screen and (min-width: 630px) {
+  #next-button {
+    margin-right: 0px;
+    font-size: 1.5em;
+  }
+  #prev-button {
+    margin-left: 200px;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 910px) {
+  #next-button {
+    align-self: center;
+    margin-right: 400px;
+    width: 10%;
+  }/*ye walaaaaa */
+  #prev-button {
+    margin-left: 400px;
+    width: 11%
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .card {
+    margin: 20px 400px;
+    background-color: rgba(185, 252, 252, 1)
+  }
+}
